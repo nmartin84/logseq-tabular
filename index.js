@@ -3,7 +3,7 @@ function main() {
     /*  Testing TANA Features */
 .flex-1 :is(.journal .flex.flex-col > .initial > div:not(.references-blocks) .blocks-container > div > div > .ls-block > .flex.flex-row > .flex.flex-col.block-content-wrapper > .flex.flex-row .block-body, .is-journals > .relative .blocks-container > div > div > .ls-block > .flex.flex-row .block-body) {
     font-size: 85%;
-    filter: grayscale(0.7);
+    color: var(--ls-primary-text-color) !important;
     opacity: 0.7;
     font-weight: 400;
 }
