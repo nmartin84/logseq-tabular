@@ -1,0 +1,11 @@
+{
+  "name": "Tabular Journals",
+  "author": "nmartin84",
+  "version": "0.1.0",
+  "description": "Give your Journals a tabular View",
+  "main": "./index.html",
+  "logseq": {
+    "id": "tabular_journals-001",
+    "icon": "icon.png"
+  }
+}
