@@ -5,6 +5,7 @@ function main() {
     font-size: 70%;
     filter: grayscale(0.7);
     opacity: 0.7;
+    font-weight: 300;
 }
 .flex-1 :is(.journal > .flex.flex-col > .initial > div:not(.references-blocks) .blocks-container > div > div > .ls-block, .is-journals > .relative .blocks-container > div > div > .ls-block) {
     display: flex;
@@ -24,7 +25,7 @@ function main() {
 .flex-1 :is(.journal > .flex.flex-col > .initial > div:not(.references-blocks) .blocks-container > div > div > .ls-block > .flex.flex-row > .flex.flex-col.block-content-wrapper > .flex.flex-row, .is-journals > .relative .blocks-container > div > div > .ls-block > .flex.flex-row > .flex.flex-col.block-content-wrapper > .flex.flex-row) {
     min-width: 155px;
     max-width: 155px;
-    font-weight: 600 !important;
+    font-weight: 500 !important;
     color: var(--ls-primary-text-color) !important;
 }
 .flex-1 :is(.journal:not(.color-level) > .flex.flex-col .blocks-container > div > div > .ls-block > :is(.flex.flex-row) .editor-wrapper > .editor-inner textarea, .is-journals > .relative .blocks-container > div > div > .ls-block > :is(.flex.flex-row) .editor-wrapper > .editor-inner textarea) {
@@ -32,10 +33,10 @@ function main() {
     border-right: 1px solid var(--ls-guideline-color);
 }
 :is(.ls-wide-mode) .flex-1 :is(.journal:not(.color-level) > .flex.flex-col .blocks-container > div > div > .ls-block > :is(.block-children-container) .editor-wrapper > .editor-inner textarea, .is-journals > .relative .blocks-container > div > div > .ls-block > :is(.block-children-container) .editor-wrapper > .editor-inner textarea) {
-    width: calc(1000px - 160px);
+    width: 500px;
 }
 .flex-1 :is(.journal:not(.color-level) > .flex.flex-col .blocks-container > div > div > .ls-block > :is(.block-children-container) .editor-wrapper > .editor-inner textarea, .is-journals > .relative .blocks-container > div > div > .ls-block > :is(.block-children-container) .editor-wrapper > .editor-inner textarea) {
-    width: calc(var(--ls-main-content-max-width) - 160px);
+    width: 500px;
 }
 .flex-1 :is(.journal:not(.color-level) > .flex.flex-col > .initial > div:not(.references-blocks) .blocks-container > div > div > .ls-block .flex-1.w-full, .is-journals > .relative .blocks-container > div > div > .ls-block .flex-1.w-full) {
     min-width: 100px;
@@ -44,7 +45,7 @@ function main() {
     max-inline-size: fit-content !important;
 }
 .flex-1 :is(.journal:not(.color-level) > .flex.flex-col > .initial > div:not(.references-blocks) .blocks-container > div > div > .ls-block > .flex.flex-row > .flex.flex-col.block-content-wrapper, .is-journals > .relative .blocks-container > div > div > .ls-block > .flex.flex-row > .flex.flex-col.block-content-wrapper) {
-    border-right: 1px solid var(--ls-guideline-color);
+    border-right: 0px solid var(--ls-guideline-color);
 }
 
 .flex-1 .journal:not(.color-level) > .flex.flex-col > .initial > div:not(.references-blocks) .blocks-container > div > div > .ls-block > .flex.flex-row > .flex.flex-col.block-content-wrapper > .flex.flex-row span.inline:first-child:before {
