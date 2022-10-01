@@ -16,7 +16,7 @@ function main() {
     display: none !important;
 }
 /* hide brackets */
-.flex-1 :is(.journal > .flex.flex-col > .initial > div:not(.references-blocks) .blocks-container > div > div > .ls-block .page-reference .bracket, .is-journals > .relative .blocks-container > div > div > .ls-block .page-reference .bracket) {
+.flex-1 :is(.journal > .flex.flex-col > .initial > div:not(.references-blocks) .blocks-container > div > div > .ls-block > .flex.flex-row > .flex.flex-col.block-content-wrapper > .flex.flex-row .page-reference .bracket, .is-journals > .relative .blocks-container > div > div > .ls-block > .flex.flex-row > .flex.flex-col.block-content-wrapper > .flex.flex-row .page-reference .bracket) {
     display: none;
 }
 .flex-1 :is(.journal > .flex.flex-col > .initial > div:not(.references-blocks) .blocks-container > div > div > .ls-block:first-child, .is-journals > .relative .blocks-container > div > div > .ls-block:first-child) {
