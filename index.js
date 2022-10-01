@@ -2,10 +2,10 @@ function main() {
     logseq.provideStyle(String.raw`
     /*  Testing TANA Features */
 .flex-1 :is(.journal .flex.flex-col > .initial > div:not(.references-blocks) .blocks-container > div > div > .ls-block > .flex.flex-row > .flex.flex-col.block-content-wrapper > .flex.flex-row .block-body, .is-journals > .relative .blocks-container > div > div > .ls-block > .flex.flex-row .block-body) {
-    font-size: 70%;
+    font-size: 85%;
     filter: grayscale(0.7);
     opacity: 0.7;
-    font-weight: 300;
+    font-weight: 400;
 }
 .flex-1 :is(.journal > .flex.flex-col > .initial > div:not(.references-blocks) .blocks-container > div > div > .ls-block, .is-journals > .relative .blocks-container > div > div > .ls-block) {
     display: flex;
